@@ -17,6 +17,9 @@
 .primary-color{
     color: #050505;
 }
+.secondary-color {
+    color: #7a7a7a;
+  }
 
 .bg-secondary-color{
     color: #7a7a7a;
@@ -270,3 +273,65 @@
   #social-icons i:hover{
       color: #7a7a7a;
   }
+
+  /* FOOTER DETAILS  */
+  #footer-details {
+      margin-bottom: 3em;
+  }
+
+  #news-container,
+  #contact-container,
+  #links-container {
+      padding: 0;
+      border: 0;
+      margin-bottom: 2em;
+  }
+
+  #footer-details h4{
+      color: #fff;
+      margin-bottom: 1.5em;
+  }
+
+  #news-container input{
+      border-radius: 0;
+      border: none;
+  }
+
+  #links-container li{
+      margin-bottom: 0.5em;
+  }
+
+  #links-container a{
+      text-decoration: none;
+  }
+
+  #links-container a:hover{
+    color: #fff;
+}
+
+/* FOOTER BOTTOM  */
+#footer-bottom{
+   border-top: 1px solid #7a7a7a;
+   padding-top: 2em; 
+}
+
+#footer-bottom i{
+    color: #e61e10;
+    margin-left: 0.3em;
+}
+
+@media(min-width: 768px) {
+    #news-container {
+        padding-right: 2em;
+    }
+
+    #links-container {
+        padding-left: 2em;
+    }
+
+    #contact-container {
+        padding: 0 2em;
+        border-left: 1px solid #7a7a7a;
+        border-right: 1px solid #7a7a7a;
+    }
+}
